@@ -11,7 +11,12 @@ object ElasticsearchBuild extends Build
     libraryDependencies ++= Seq(
       "org.scala-tools.testing" %% "scalacheck" % "1.9",
       "org.scala-tools.testing" % "test-interface" % "0.5",
-      "org.scalatest" % "scalatest_2.9.0" % "1.6.1"
+      "org.scalatest" % "scalatest_2.9.0" % "1.6.1",
+      "org.elasticsearch" % "elasticsearch" % "0.17.8" % "compile",
+      "com.github.jsuereth.scala-arm" %% "scala-arm" % "0.3"
+    ),
+    resolvers ++= Seq(
+      "Sonatype Repository" at "http://oss.sonatype.org/content/repositories/releases"
     )
   )
 
