@@ -1,3 +1,5 @@
+## [EDIT] You may want to use [scalastic](https://github.com/bsadeh/scalastic) instead 
+
 # scala-elasticsearch
 
 _scala-elasticsearch_ is a scala (2.9.1) client for the [ElasticSearch](http://www.elasticsearch.org/)
